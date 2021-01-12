@@ -23,6 +23,7 @@ En primer lugar conectamos nifi con la Api de datos que contiene los datos de ll
 fuente de datos: https://data.cityofnewyork.us/resource/erm2-nwe9.json
 
 
+
 2.- Procesador SplitJson
 Para que los datos se separen en ficheros que podamos ingestar en Elastic utilizamos en procesador 
 
@@ -34,3 +35,5 @@ KIBANA
 1.- Generación de un index pattern 
 2.- Reindexado del index para geopoint 
 3.- Visualizacion del plano 
+
+https://raw.githubusercontent.com/usuario/repositorio/rama/ruta/al/asset
