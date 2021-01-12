@@ -37,3 +37,4 @@ KIBANA
 3.- Visualizacion del plano 
 
 https://raw.githubusercontent.com/usuario/repositorio/rama/ruta/al/asset
+https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-12%20a%20las%2011.04.25.png
