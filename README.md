@@ -40,6 +40,8 @@ Inline-style:
 
 KIBANA 
 1.- Generación de un index pattern 
+Inline-style: 
+![alt text](https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-12%20a%20las%2011.03.53.png)
 2.- Reindexado del index para geopoint 
 3.- Visualizacion del plano 
 Inline-style: 
