@@ -34,6 +34,7 @@ Para que los datos se separen en ficheros que podamos ingestar en Elastic utiliz
 3.- PutElasticsharehttp
 
 
+
 Inline-style: 
 ![alt text](https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-10%20a%20las%2022.50.54.png)
 
@@ -41,6 +42,6 @@ KIBANA
 1.- Generación de un index pattern 
 2.- Reindexado del index para geopoint 
 3.- Visualizacion del plano 
+Inline-style: 
+![alt text](https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-12%20a%20las%2011.03.10.png)
 
-https://raw.githubusercontent.com/usuario/repositorio/rama/ruta/al/asset
-https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-12%20a%20las%2011.04.25.png
