@@ -35,7 +35,8 @@ Para que los datos se separen en ficheros que podamos ingestar en Elastic utiliz
 
 
 Esquema procesamiento NIFI: 
-![alt text](https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-10%20a%20las%2022.50.54.png)
+![alt text]
+(https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-16%20a%20las%2018.16.01.png)
 
 KIBANA 
 1.- Generación de un index pattern a partir del index que viene de NIFI:
