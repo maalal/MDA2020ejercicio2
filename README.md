@@ -25,8 +25,7 @@ En primer lugar conectamos nifi con la Api de datos que contiene los datos de ll
 
 fuente de datos: https://data.cityofnewyork.us/resource/erm2-nwe9.json
 
-Inline-style: 
-![alt text]
+
 
 2.- Procesador SplitJson
 Para que los datos se separen en ficheros que podamos ingestar en Elastic utilizamos en procesador 
@@ -35,16 +34,19 @@ Para que los datos se separen en ficheros que podamos ingestar en Elastic utiliz
 
 
 
-Inline-style: 
+Esquema procesamiento NIFI: 
 ![alt text](https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-10%20a%20las%2022.50.54.png)
 
 KIBANA 
-1.- Generación de un index pattern 
-Inline-style: 
+1.- Generación de un index pattern a partir del index que viene de NIFI:
+
+
 ![alt text](https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-12%20a%20las%2011.03.53.png)
-2.- Reindexado del index para geopoint 
+2.- Reindexado del index para categorizar el geopoint que en el procesamiento de NIFI viene aparece como String.
+Codigo de generación de un nuevo index que recategoriza las coordenadas de la ciudad como Geopoint. 
+Consola Kibana: 
 ![alt text](https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-12%20a%20las%2011.04.25.png)
 3.- Visualizacion del plano 
-Inline-style: 
+Generación del plano a partir de nuevo index: 
 ![alt text](https://github.com/maalal/MDA2020ejercicio2/blob/main/Captura%20de%20pantalla%202021-01-12%20a%20las%2011.03.10.png)
 
