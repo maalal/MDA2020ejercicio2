@@ -8,6 +8,11 @@ Usando nifi+ELK presentar una solución que muestre sobre un mapa la disposició
 
  https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
 
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
+
 LEVANTAR DOCKER COMPOSE 
 
 Levantamos un docker que contenga las aplicaciones a utilizar en el proyecto. 
